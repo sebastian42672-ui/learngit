@@ -1,43 +1,24 @@
- for(let i=0;i<10;i++){
-    console.log(i);
-}
-
-for(let i=9;i>0;1--) {
-    console.log(i);
-}
-
-for(let i=1;i<1_000_000;i*=2) {
-    console.log(i)
-}
-
-for(let i=0;i>10;i++){
-    console.log(i);
-}
-
-// for(let i=0;i<10;i--){
-//     console.log(i)
-// }
-
-let start = Date.now();
-console.log(start);
-let i =0;
-while(Date.now() < start+5000) {
-    i++;
-}
-console.log(i);
-
-// while(true) {
-
-// }
-
-let num = 5;
-
-while(num>5){
-    console.log(`WHILW`);
-}
-
-do {
-    console.log(`DO`);
-} while(num>5);
-
-
+let array =[1, 2, 3, 4];
+console.log(array);
+console.log(array[0]);
+array[2]= 10;
+console.log(array);
+array = [`hello`,1 ,2 ,3 , true, [4, 5, 6]];
+console.log(array);
+console.log(array[5][1]);
+array = [
+    [1,2,3],
+    [1,2,3],[1,2,3],
+],
+    [[4,5,6],
+    [1,2,3],
+    [1,2,3],
+],
+    [[7,8,9],
+    [1,2,3],
+    [1,2,3],
+],
+];
+console.log(array);
+array = [[[[[1]]]]];
+console.log(array[0][0])
